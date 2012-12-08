@@ -13,8 +13,12 @@ SensorModule
 
 使用方法
 --------
+　　　　(1)まず
+
 　このコンポーネントは複数のセンサを用いることが可能です。  
 　sensor.iniで受け取るセンサの数、センサ値の個数、センサデータの大きさを設定する必要があります。
+
+
 
 　　　　[![画像2][image2]](https://github.com/downloads/s-ryuki/Pictures/SensorModule_ini.png)
 [image2]:https://github.com/downloads/s-ryuki/Pictures/SensorModule_ini.png
@@ -25,9 +29,9 @@ SensorModule
 　　　　　　　　③タイムアウト  
 　　　　　　　　④使用するセンサの個数  
 　　　　　　　　⑤各センサの情報  
-　　　　　　　　　　　datanam_2 = 2：データの番号  
-　　　　　　　　　　　getdata_2 = 3：センサ値の個数  
-　　　　　　　　　　　unitlength_2byte = 2：出力するセンサ値の大きさ  
+　　　　　　　　　　　datanam_1 = 2：データの番号  
+　　　　　　　　　　　getdata_1 = 3：センサ値の個数  
+　　　　　　　　　　　unitlength_1byte = 2：出力するセンサ値の大きさ  
 　  
 　例えば現在市販されているホビーロボットには加速度センサ（Gセンサ）の他にジャイロセンサや測距センサ等を搭載したものもあります。	
 これらを搭載することでより研究用ロボットに近いヒューマノイドにすることが可能です。
