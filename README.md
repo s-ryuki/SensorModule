@@ -35,10 +35,10 @@ SensorModule
 　　　　　　　　　　　getdata_1 = 3：センサ値の個数  
 　　　　　　　　　　　unitlength_1byte = 2：出力するセンサ値の大きさ  
 　  
-　例えば現在市販されているヒューマノイドロボットには加速度センサ（Gセンサ）の他にジャイロセンサや測距センサ、  
-　力覚センサ等を搭載したものもあります。  
-　これらを搭載することでより研究用ロボットに近いヒューマノイドにすることが可能です。
+　　例えば現在市販されているヒューマノイドロボットには加速度センサ（Gセンサ）の他にジャイロセンサや測距センサ、  
+　力覚センサ等を搭載したものもあります。
+　これらを搭載することで、より研究用ロボットに近いヒューマノイドにすることが可能です。
 　  
-　なお、SensorModuleのShellにはセンサ番号とセンサ値が表示される。
+　なお、SensorModuleのShellにはセンサ番号とセンサ値が表示される。  
 　　　　　　[![画像3][image3]](https://github.com/downloads/s-ryuki/Pictures/SensorModule_shell2.png)
 [image3]:https://github.com/downloads/s-ryuki/Pictures/SensorModule_shell2.png
