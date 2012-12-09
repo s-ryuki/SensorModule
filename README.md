@@ -13,13 +13,15 @@ SensorModule
 
 使用方法
 --------
-　　　　(1)まず
-
+　　　　(1)PCとセンサを接続します。  
+　　　　(2)接続したCOMポート番号を確認し、sensor.iniを編集します。  
+　　　　(3)sensor.iniで使用するセンサの数等を編集し保存します。  
+　　　　(4)SensorModule.pyを起動します。  
+　　　　(5)RTSytemEditor上でHumanInterfaceまたはそれに準ずるコンポーネントと繋ぎActivateします。  
+　  
 　このコンポーネントは複数のセンサを用いることが可能です。  
 　sensor.iniで受け取るセンサの数、センサ値の個数、センサデータの大きさを設定する必要があります。
-
-
-
+　  
 　　　　[![画像2][image2]](https://github.com/downloads/s-ryuki/Pictures/SensorModule_ini.png)
 [image2]:https://github.com/downloads/s-ryuki/Pictures/SensorModule_ini.png
 
@@ -33,5 +35,10 @@ SensorModule
 　　　　　　　　　　　getdata_1 = 3：センサ値の個数  
 　　　　　　　　　　　unitlength_1byte = 2：出力するセンサ値の大きさ  
 　  
-　例えば現在市販されているホビーロボットには加速度センサ（Gセンサ）の他にジャイロセンサや測距センサ等を搭載したものもあります。	
-これらを搭載することでより研究用ロボットに近いヒューマノイドにすることが可能です。
+　例えば現在市販されているヒューマノイドロボットには加速度センサ（Gセンサ）の他にジャイロセンサや測距センサ、  
+　力覚センサ等を搭載したものもあります。  
+　これらを搭載することでより研究用ロボットに近いヒューマノイドにすることが可能です。
+　  
+　なお、SensorModuleのShellにはセンサ番号とセンサ値が表示される。
+　　　　[![画像3][image3]](https://github.com/downloads/s-ryuki/Pictures/SensorModule_shell2.png)
+[image3]:https://github.com/downloads/s-ryuki/Pictures/SensorModule_shell2.png
