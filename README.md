@@ -22,7 +22,7 @@ SensorModule
 　このコンポーネントは複数のセンサを用いることが可能です。  
 　sensor.iniで受け取るセンサの数、センサ値の個数、センサデータの大きさを設定する必要があります。
 　  
-　　　　[![画像2][image2]](https://github.com/downloads/s-ryuki/Pictures/SensorModule_ini.png)
+　　　　　[![画像2][image2]](https://github.com/downloads/s-ryuki/Pictures/SensorModule_ini.png)
 [image2]:https://github.com/downloads/s-ryuki/Pictures/SensorModule_ini.png
 
 ####　　　　　画面説明####
@@ -40,5 +40,5 @@ SensorModule
 　これらを搭載することでより研究用ロボットに近いヒューマノイドにすることが可能です。
 　  
 　なお、SensorModuleのShellにはセンサ番号とセンサ値が表示される。
-　　　　[![画像3][image3]](https://github.com/downloads/s-ryuki/Pictures/SensorModule_shell2.png)
+　　　　　　[![画像3][image3]](https://github.com/downloads/s-ryuki/Pictures/SensorModule_shell2.png)
 [image3]:https://github.com/downloads/s-ryuki/Pictures/SensorModule_shell2.png
