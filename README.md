@@ -39,6 +39,6 @@ SensorModule
 　力覚センサ等を搭載したものもあります。
 　これらを搭載することで、より研究用ロボットに近いヒューマノイドにすることが可能です。
 　  
-　なお、SensorModuleのShellにはセンサ番号とセンサ値が表示される。  
+　なお、SensorModuleのShellにはセンサ番号とセンサ値が表示されます。  
 　　　　　　[![画像3][image3]](https://github.com/downloads/s-ryuki/Pictures/SensorModule_shell2.png)
 [image3]:https://github.com/downloads/s-ryuki/Pictures/SensorModule_shell2.png
