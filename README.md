@@ -5,11 +5,12 @@ SensorModule
 　  
 コンポーネントの仕様
 --------------------
-
+  ロボットに実装されたセンサの計測値を受け取り、出力を行うコンポーネントです。
 　　　　[![画像1][image1]](https://github.com/downloads/s-ryuki/Pictures/SensorModule_Comm.png)
 [image1]:https://github.com/downloads/s-ryuki/Pictures/SensorModule_Comm.png
 
 　OutPortからはセンサの番号とセンサ値がTimedlongSeq型で出力されます。
+  提供するプログラムはmbed NXP LPC1768ですが、SensorModuleの通信プロトコルに沿ってシリアル通信でき、またAD変換可能でできればどのようなマイコンでも使用可能です。
 
 使用方法
 --------
