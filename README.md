@@ -13,8 +13,7 @@ SensorModule
 　OutPortからはセンサの番号とセンサ値がTimedlongSeq型で出力されます。  
   提供するプログラムはmbed NXP LPC1768ですが、SensorModuleの通信プロトコルに沿ってシリアル通信でき、またAD変換可能でできればどのようなマイコンでも使用可能です。
   SensorModuleのShell上にはセンサ番号、センサのすべてのデータが表示されます。  
-  提供したマイコンプログラムは[http://mbed.org/users/matsu/code/mbed-for-SensorModule/]
-  
+  提供したマイコンプログラムは[こちら](http://mbed.org/users/matsu/code/mbed-for-SensorModule/])です  
 
 使用方法
 --------
