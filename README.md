@@ -5,7 +5,7 @@ SensorModule
 　  
 コンポーネントの仕様
 --------------------
-  ロボットに実装されたセンサの計測値を受け取り、出力を行うコンポーネントです。
+  ロボットに実装されたセンサの計測値を受け取り、出力を行うコンポーネントです。  
 　　　　[![画像1][image1]](https://github.com/downloads/s-ryuki/Pictures/SensorModule_Comm.png)
 [image1]:https://github.com/downloads/s-ryuki/Pictures/SensorModule_Comm.png
 
